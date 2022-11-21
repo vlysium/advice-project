@@ -5,27 +5,26 @@ import Converter from "./components/Converter";
 import Results from "./components/Results";
 
 function App() {
-  const [minutes, setMinutes] = useState([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]);
-  const [CO2, setCO2] = useState(0);
+  const [CO2, setCO2] = useState([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]);
   const [kWh, setkWh] = useState(0);
 
   function onChange(value, index) {
+    /*
     console.log("value:", value);
     console.log("index:", index);
+    */
 
-    const newState = minutes.map((obj) => {
-      if (obj === index) {
+    const newState = CO2.map((c, i) => {
+      if (i === index) {
         return value;
       }
-
-      return obj;
+      return c;
     });
-
-    setMinutes(newState);
+    setCO2(newState);
   }
 
   function onCalculate() {
-    console.log(minutes.reduce((a, b) => a + b, 0));
+    console.log(CO2.reduce((a, b) => a + b, 0));
   }
 
   function convertCO2tokWh(value) {

@@ -1,7 +1,11 @@
 import { useState, useRef } from "react";
 
-function Card({ title, icon, onChange, index }) {
+function Card({ title, icon, onChange, index, ratio }) {
   const input = useRef(null);
+
+  function convertMinutesToCO2(value) {
+    return ratio * parseFloat(value, 10).toFixed(2);
+  }
 
   return (
     <div className="converter-card">
@@ -10,7 +14,8 @@ function Card({ title, icon, onChange, index }) {
         type="number"
         min="0"
         placeholder="Input minutes"
-        onBlur={() => onChange(parseInt(input.current.value, 10), index)}
+        onBlur={() => onChange(convertMinutesToCO2(input.current.value), index)}
+        ratio={ratio}
         ref={input}
       />
     </div>
@@ -18,3 +23,5 @@ function Card({ title, icon, onChange, index }) {
 }
 
 export default Card;
+
+//parseInt(input.current.value, 10)

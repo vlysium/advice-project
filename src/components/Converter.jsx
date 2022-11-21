@@ -9,7 +9,7 @@ function Converter({ onChange, onCalculate }) {
         ab itaque exercitationem quia culpa.
       </p>
       <CardContainer onChange={onChange} />
-      <button onClick={onCalculate}>Calculate my usage</button>
+      <button onClick={onCalculate}>Calculate my CO2 footprint</button>
     </section>
   );
 }
