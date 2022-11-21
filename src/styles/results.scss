@@ -1,7 +1,9 @@
 #results {
+      width: 660px;
   .visuel-results {
     display: grid;
     grid-template-rows: 100px auto;
+    justify-content: center;
     .result-text{
         grid-row: 1/2;
     }
@@ -30,7 +32,7 @@
     grid-template-rows: 100px auto;
     .result-text{
         grid-row: 1/2;
-        display: grid;
+        display: block;
          place-content: center;
     }
     .visuel {
