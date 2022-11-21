@@ -40,33 +40,35 @@ function Header() {
         <div className="textContent">
           <h1>CO2 UDREGNER</h1>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil,
-            officiis et. Placeat, tempore. Odio ea et ipsa deserunt nesciunt
-            minima sint deleniti iure unde aliquam.
+            The impact which the usage of the internet has on the global
+            environment, is greater than you may think. With our
+            calculator you can estimate how much your own social media usage
+            could be contributing!
           </p>
           <button>CTA</button>
         </div>
         <div className="circler">
-        <svg height="320" width="320" className="greenCircle">
-          <circle
-            cx="160"
-            cy="160"
-            r="160"
-            stroke="none"
-            stroke-width="4"
-            fill="#226F63"
-          />
-        </svg>
-        <svg height="320" width="320" className="orangeCircle">
-          <circle
-            cx="160"
-            cy="160"
-            r="160"
-            stroke="none"
-            stroke-width="4"
-            fill="#e46f21"
-          />
-        </svg></div>
+          <svg height="320" width="320" className="orangeCircle">
+            <circle
+              cx="160"
+              cy="160"
+              r="160"
+              stroke="none"
+              stroke-width="4"
+              fill="#e46f21"
+            />
+          </svg>
+          <svg height="320" width="320" className="greenCircle">
+            <circle
+              cx="160"
+              cy="160"
+              r="160"
+              stroke="none"
+              stroke-width="4"
+              fill="#226F63"
+            />
+          </svg>
+        </div>
       </section>
     </header>
   );
