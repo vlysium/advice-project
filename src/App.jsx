@@ -1,12 +1,12 @@
 import Header from "./components/Header";
-import CardContainer from "./components/CardContainer";
+import Converter from "./components/Converter";
 import Results from "./components/Results";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <CardContainer />
+      <Converter />
       <Results />
     </div>
   );
