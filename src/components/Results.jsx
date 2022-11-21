@@ -1,4 +1,4 @@
-import "../styles/results.scss"
+import "../styles/results.scss";
 
 function Results() {
   return (
@@ -7,7 +7,7 @@ function Results() {
         <div className="result-text">
           <h2>Dette er en overskrift</h2>
           <select name="visualisering" id="visualisering">
-            <option value="power" selected>
+            <option value="power" defaultValue>
               Power
             </option>
             <option value="cigarettes">Cigarettes</option>
