@@ -4,6 +4,7 @@
     gap: 32px 40px;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     padding-inline: 48px;
+    margin-block: 64px;
 
     .converter-card {
       display: flex;
@@ -18,5 +19,11 @@
         width: 100%;
       }
     }
+  }
+
+  button {
+    display: block;
+    margin-top: 48px;
+    margin-inline: auto;
   }
 }

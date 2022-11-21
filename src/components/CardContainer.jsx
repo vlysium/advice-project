@@ -13,6 +13,8 @@ function CardContainer() {
       <Card title="Twitter" icon="" />
       <Card title="Twitch" icon="" />
       <Card title="YouTube" icon="" />
+      <Card title="E-mail" icon="" />
+      <Card title="Streaming" icon="" />
     </article>
   );
 }
