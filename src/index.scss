@@ -1,9 +1,18 @@
 /*
   brug index.scss som vores global stylesheet
-  dvs. farver og fonter, fontsize osv. laves i index.scss
+  dvs. farver og fonter, fontsize, generelle styling for elementer osv. laves i index.scss
 */
 
 //import scss filer her
+@use "./styles/Converter.scss";
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 :root {
   // indholdet herinde i :root bliver slettet senere
@@ -15,4 +24,14 @@
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
+}
+
+input {
+  padding: 8px;
+}
+
+// globale klasser
+.max-width {
+  max-width: 1200px;
+  margin-inline: auto;
 }
