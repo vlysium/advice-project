@@ -1,6 +1,6 @@
 import CardContainer from "./CardContainer";
 
-function Converter() {
+function Converter({ onChange, onCalculate }) {
   return (
     <section id="converter" className="max-width">
       <h2>Lorem ipsum dolor sit amet</h2>
@@ -8,8 +8,8 @@ function Converter() {
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit, sit? Illum iure repellendus repellat alias
         ab itaque exercitationem quia culpa.
       </p>
-      <CardContainer></CardContainer>
-      <button>Calculate my usage</button>
+      <CardContainer onChange={onChange} />
+      <button onClick={onCalculate}>Calculate my usage</button>
     </section>
   );
 }
