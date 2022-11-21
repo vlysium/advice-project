@@ -1,9 +1,15 @@
-import { useState } from "react";
+import Header from "./components/Header";
+import CardContainer from "./components/CardContainer";
+import Results from "./components/Results";
 
 function App() {
-  const [count, setCount] = useState(0);
-
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      <Header />
+      <CardContainer />
+      <Results />
+    </div>
+  );
 }
 
 export default App;
