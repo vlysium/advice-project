@@ -1,10 +1,13 @@
 #results {
       //width: 660px;
+      padding-top: 3rem;
   .visuel-results {
     display: grid;
     grid-template-rows: 100px auto;
+    justify-content: center;
     .result-text{
         grid-row: 1/2;
+        
     }
     .visuel {
       grid-row: 2/3;
@@ -13,7 +16,7 @@
     }
   }
   #visualisering {
-    max-width: 300px;
+    min-width: 200px;
   }
   .daily,
   .monthly,
@@ -28,6 +31,7 @@
 .tree-grid {
   display: grid;
   justify-items: center;
+  row-gap: 2rem;
   padding-top: 5rem;
   padding-bottom: 5rem;
   .tree-text {
