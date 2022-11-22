@@ -13,6 +13,15 @@
 
 // elements
 
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+}
+
 input {
   padding: 8px;
 }
