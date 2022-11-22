@@ -13,6 +13,7 @@ function Card({ title, icon, onChange, index, ratio }) {
 
   return (
     <div className="converter-card">
+      <img src={icon} alt={title + " icon"} />
       <h3>{title}</h3>
       <input
         type="number"
