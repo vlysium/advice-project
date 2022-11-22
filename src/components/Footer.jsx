@@ -41,9 +41,9 @@ function Footer() {
         </ul>
       </div>
       <div className="footerMedia">
-        <img src="../assets/icons/icons8-facebook-240.svg" alt="" />
-        <img src="../assets/icons/icons8-instagram.svg" alt="" />
-        <img src="../assets/icons/icons8-tiktok.svg" alt="" />
+        <img src="src/assets/icons/icons8-facebook-240.svg" alt="" />
+        <img src="src/assets/icons/icons8-instagram.svg" alt="" />
+        <img src="src/assets/icons/icons8-tiktok.svg" alt="" />
       </div>
     </footer>
   );
