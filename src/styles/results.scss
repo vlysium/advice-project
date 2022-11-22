@@ -42,7 +42,7 @@
   .tree-svg {
     height: 280px;
    min-width: 250px;
-    background-color: rgb(240, 255, 249);
+   /*  background-color: rgb(240, 255, 249); */
   }
 }
 
@@ -72,10 +72,10 @@
       display: flex;
       place-content: center;
       column-gap: 100px;
-    padding: 5rem 0rem 5rem 3rem;
+    padding: 5rem 0rem 5rem 0rem;
       .tree-text {
         h4 {
-          max-width: 400px;
+          max-width: 500px;
         }
          p{
         line-height: 5.5;
@@ -83,9 +83,7 @@
       }
       .tree-svg {
         height: 300px;
-        max-width: 400px;
-     
-        background-color: rgb(240, 255, 249);
+        max-width: 500px;
       }
     }//tree-grid
   }//results
