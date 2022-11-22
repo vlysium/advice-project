@@ -1,5 +1,5 @@
-    import React from 'react'
-import "../styles/Footer.scss"
+import React from "react";
+import "../styles/Footer.scss";
 
 function Footer() {
   return (
@@ -7,21 +7,8 @@ function Footer() {
       <div className="footerLogos">
         <h3>CO2 UDREGNER</h3>
         <svg height="50" width="50">
-          <circle
-            cx="25"
-            cy="25"
-            r="20"
-            stroke="none"
-            stroke-width="4"
-            fill="#226F63"
-          />
-          <text
-            fill="#ffffff"
-            font-size="12"
-            font-family="Verdana"
-            x="12"
-            y="30"
-          >
+          <circle cx="25" cy="25" r="20" stroke="none" strokeWidth="4" fill="#226F63" />
+          <text fill="#ffffff" fontSize="12" fontFamily="Verdana" x="12" y="30">
             CO2
           </text>
           Sorry, your browser does not support inline SVG.
@@ -49,4 +36,4 @@ function Footer() {
   );
 }
 
-export default Footer
+export default Footer;
