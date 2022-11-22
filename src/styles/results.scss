@@ -3,12 +3,11 @@
   .visuel-results {
     display: grid;
     grid-template-rows: 100px auto;
-    justify-content: center;
     .result-text{
         grid-row: 1/2;
     }
     .visuel {
-        grid-row: 2/3;
+      grid-row: 2/3;
       display: grid;
       place-content: center;
     }
@@ -25,24 +24,69 @@
   }
 }
 
+/*tree*/
+.tree-grid {
+  display: grid;
+  justify-items: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  .tree-text {
+    
+    h4 {
+      max-width: 250px;
+    }
+    p{
+        line-height: 3.5;
+    }
+  }
+  .tree-svg {
+    height: 280px;
+   min-width: 250px;
+    background-color: rgb(240, 255, 249);
+  }
+}
+
+/*web*/
 @media screen and (min-width: 700px) {
-#results {
-  .visuel-results {
-    display: grid;
-    grid-template-rows: 100px auto;
-    .result-text{
+  #results {
+    .visuel-results {
+      display: grid;
+      grid-template-rows: 100px auto;
+      .result-text {
         grid-row: 1/2;
         display: block;
          place-content: center;
     }
     .visuel {
+        display: grid;
+        place-content: center;
+      }
+      .visuel {
         grid-row: 2/3;
+        display: flex;
+        place-content: center;
+        gap: 30px;
+      }
+    }//visuel-results
+    .tree-grid {
       display: flex;
       place-content: center;
-      gap: 30px;
+      column-gap: 100px;
+    padding: 5rem 0rem 5rem 3rem;
+      .tree-text {
+        h4 {
+          max-width: 400px;
+        }
+         p{
+        line-height: 5.5;
     }
- 
- 
-}
-}
-}
+      }
+      .tree-svg {
+        height: 300px;
+        max-width: 400px;
+     
+        background-color: rgb(240, 255, 249);
+      }
+    }//tree-grid
+  }//results
+}//media
