@@ -1,32 +1,29 @@
-import "../styles/results.scss";
+import { useState } from "react";
 
-function Results() {
+import "../styles/Results.scss";
+import DropDown from "./DropDown";
+import Usage from "./Usage";
+
+function Results({ CO2Total, dynamicText, onUpdate, setVisualization }) {
+  const [kWh, setkWh] = useState(0);
+
+  function onChange(event) {
+    setVisualization(event.target.value);
+    onUpdate(event.target.value);
+  }
+
   return (
     <section id="results" className="max-width">
       <div className="visuel-results">
         <div className="result-text">
           <h2>Dette er en overskrift</h2>
-          <select name="visualisering" id="visualisering">
-            <option value="power" defaultValue>
-              Power
-            </option>
-            <option value="cigarettes">Cigarettes</option>
-            <option value="coffeecups">Cups of coffee</option>
-          </select>
+          <DropDown onChange={onChange} />
+          <p>{dynamicText}</p>
         </div>
         <div className="visuel">
-          <div>
-            <h4>Daily</h4>
-            <div className="daily"></div>
-          </div>
-          <div>
-            <h4>Monthly</h4>
-            <div className="monthly"></div>
-          </div>
-          <div>
-            <h4>Yearly</h4>
-            <div className="yearly"></div>
-          </div>
+          <Usage title="Daily" myClassName="daily" />
+          <Usage title="Monthly" myClassName="monthly" />
+          <Usage title="Yearly" myClassName="yearly" />
         </div>
       </div>
       <div>

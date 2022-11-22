@@ -1,14 +1,14 @@
 #results {
-      width: 660px;
+  width: 660px;
   .visuel-results {
     display: grid;
     grid-template-rows: 100px auto;
     justify-content: center;
-    .result-text{
-        grid-row: 1/2;
+    .result-text {
+      grid-row: 1/2;
     }
     .visuel {
-        grid-row: 2/3;
+      grid-row: 2/3;
       display: grid;
       place-content: center;
     }
@@ -26,23 +26,21 @@
 }
 
 @media screen and (min-width: 700px) {
-#results {
-  .visuel-results {
-    display: grid;
-    grid-template-rows: 100px auto;
-    .result-text{
+  #results {
+    .visuel-results {
+      display: grid;
+      grid-template-rows: 100px auto;
+      .result-text {
         grid-row: 1/2;
         display: block;
-         place-content: center;
-    }
-    .visuel {
+        place-content: center;
+      }
+      .visuel {
         grid-row: 2/3;
-      display: flex;
-      place-content: center;
-      gap: 30px;
+        display: flex;
+        place-content: center;
+        gap: 30px;
+      }
     }
- 
- 
-}
-}
+  }
 }

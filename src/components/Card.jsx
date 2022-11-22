@@ -4,7 +4,11 @@ function Card({ title, icon, onChange, index, ratio }) {
   const input = useRef(null);
 
   function convertMinutesToCO2(value) {
-    return ratio * parseFloat(value, 10).toFixed(2);
+    // check if the input is empty
+    if (value !== "") {
+      return Math.round(ratio * value * 1000);
+    }
+    return 0;
   }
 
   return (
