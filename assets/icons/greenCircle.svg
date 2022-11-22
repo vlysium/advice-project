@@ -1,0 +1,10 @@
+<svg height="320" width="320" className="greenCircle">
+            <circle
+              cx="160"
+              cy="160"
+              r="160"
+              stroke="none"
+              stroke-width="4"
+              fill="#226F63"
+            />
+          </svg>

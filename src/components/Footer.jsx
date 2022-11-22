@@ -1,4 +1,4 @@
-import React from 'react'
+    import React from 'react'
 import "../styles/Footer.scss"
 
 function Footer() {
@@ -29,15 +29,21 @@ function Footer() {
       </div>
       <div className="footerLinks">
         <ul>
-            <li><a href="">Første</a></li>
-            <li><a href="">Anden</a></li>
-            <li><a href="">Trejde</a></li>
+          <li>
+            <a href="">Første</a>
+          </li>
+          <li>
+            <a href="">Anden</a>
+          </li>
+          <li>
+            <a href="">Trejde</a>
+          </li>
         </ul>
       </div>
       <div className="footerMedia">
-        <img src="" alt="" />
-        <img src="" alt="" />
-        <img src="" alt="" />
+        <img src="../assets/icons/icons8-facebook-240.svg" alt="" />
+        <img src="../assets/icons/icons8-instagram.svg" alt="" />
+        <img src="../assets/icons/icons8-tiktok.svg" alt="" />
       </div>
     </footer>
   );
