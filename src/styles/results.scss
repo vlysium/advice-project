@@ -1,13 +1,11 @@
 #results {
-      //width: 660px;
-      padding-top: 3rem;
+  width: 660px;
   .visuel-results {
     display: grid;
     grid-template-rows: 100px auto;
     justify-content: center;
-    .result-text{
-        grid-row: 1/2;
-        
+    .result-text {
+      grid-row: 1/2;
     }
     .visuel {
       grid-row: 2/3;
@@ -35,18 +33,17 @@
   padding-top: 5rem;
   padding-bottom: 5rem;
   .tree-text {
-    
     h4 {
       max-width: 250px;
     }
-    p{
-        line-height: 3.5;
+    p {
+      line-height: 3.5;
     }
   }
   .tree-svg {
     height: 280px;
-   min-width: 250px;
-   /*  background-color: rgb(240, 255, 249); */
+    min-width: 250px;
+    /*  background-color: rgb(240, 255, 249); */
   }
 }
 
@@ -59,9 +56,9 @@
       .result-text {
         grid-row: 1/2;
         display: block;
-         place-content: center;
-    }
-    .visuel {
+        place-content: center;
+      }
+      .visuel {
         display: grid;
         place-content: center;
       }
@@ -71,24 +68,24 @@
         place-content: center;
         gap: 30px;
       }
-    }//visuel-results
+    } //visuel-results
     .tree-grid {
       display: flex;
       place-content: center;
       column-gap: 100px;
-    padding: 5rem 0rem 5rem 0rem;
+      padding: 5rem 0rem 5rem 0rem;
       .tree-text {
         h4 {
           max-width: 500px;
         }
-         p{
-        line-height: 5.5;
-    }
+        p {
+          line-height: 5.5;
+        }
       }
       .tree-svg {
         height: 300px;
         max-width: 500px;
       }
-    }//tree-grid
-  }//results
-}//media
+    } //tree-grid
+  } //results
+} //media
