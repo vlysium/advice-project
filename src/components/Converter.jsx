@@ -1,3 +1,5 @@
+import "../styles/Converter.scss";
+
 import CardContainer from "./CardContainer";
 
 function Converter({ onChange, onCalculate }) {

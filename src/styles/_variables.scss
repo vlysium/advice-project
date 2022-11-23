@@ -1,0 +1,20 @@
+/*
+**
+**  kopier 
+>>  @use "./_variables" as variable;
+**  til at bruge variablerne i jeres scss filer
+**
+**  syntaksen er
+**  [css regel]: variables.$[variablel navn]
+**
+**  for eksempel:
+>>  color: variable.$color-primary
+**
+*/
+
+// farver
+
+$color-primary: #e9e9e2;
+$color-secondary: #2c3d37;
+$color-accent-1: #226f63;
+$color-accent-2: #e46f21;

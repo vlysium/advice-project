@@ -14,7 +14,7 @@
     }
   }
   #visualisering {
-    max-width: 300px;
+    min-width: 200px;
   }
   .daily,
   .monthly,
@@ -25,6 +25,29 @@
   }
 }
 
+/*tree*/
+.tree-grid {
+  display: grid;
+  justify-items: center;
+  row-gap: 2rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  .tree-text {
+    h4 {
+      max-width: 250px;
+    }
+    p {
+      line-height: 3.5;
+    }
+  }
+  .tree-svg {
+    height: 280px;
+    min-width: 250px;
+    /*  background-color: rgb(240, 255, 249); */
+  }
+}
+
+/*web*/
 @media screen and (min-width: 700px) {
   #results {
     .visuel-results {
@@ -36,11 +59,33 @@
         place-content: center;
       }
       .visuel {
+        display: grid;
+        place-content: center;
+      }
+      .visuel {
         grid-row: 2/3;
         display: flex;
         place-content: center;
         gap: 30px;
       }
-    }
-  }
-}
+    } //visuel-results
+    .tree-grid {
+      display: flex;
+      place-content: center;
+      column-gap: 100px;
+      padding: 5rem 0rem 5rem 0rem;
+      .tree-text {
+        h4 {
+          max-width: 500px;
+        }
+        p {
+          line-height: 5.5;
+        }
+      }
+      .tree-svg {
+        height: 300px;
+        max-width: 500px;
+      }
+    } //tree-grid
+  } //results
+} //media

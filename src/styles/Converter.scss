@@ -1,4 +1,10 @@
+@use "./_variables" as variable;
+
 #converter {
+  min-height: 100vh;
+  margin-block: 10vh;
+  padding-inline: 16px;
+
   #card-container {
     display: grid;
     gap: 32px 40px;
@@ -11,11 +17,18 @@
       flex-direction: column;
       align-items: center;
       gap: 12px;
-      outline: 1px solid red;
       padding: 20px;
+      border-radius: 8px;
+      background-color: variable.$color-primary;
+      color: variable.$color-secondary;
+
+      img {
+        width: 80px;
+        aspect-ratio: 1 / 1;
+      }
 
       input {
-        max-width: 120px;
+        max-width: 180px;
         width: 100%;
       }
     }
