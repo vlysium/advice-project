@@ -3,6 +3,7 @@ import { useState } from "react";
 import "../styles/Results.scss";
 import DropDown from "./DropDown";
 import Usage from "./Usage";
+import TreesPlanted from "./TreesPlanted";
 
 function Results({ CO2Total, dynamicValue, onUpdate, setVisualization, unit }) {
   const [kWh, setkWh] = useState(0);
@@ -42,9 +43,9 @@ function Results({ CO2Total, dynamicValue, onUpdate, setVisualization, unit }) {
       <div className="tree-grid">
         <article className="tree-text">
           <h4>To offset your CO2 emissions, you would have to plant the following number of trees:</h4>
-          <p>Daily:</p>
-          <p>Monthly:</p>
-          <p>Yearly:</p>
+          <TreesPlanted title="Daily" ratio="1" CO2Total={CO2Total} />
+          <TreesPlanted title="Monthly" ratio="30.42" CO2Total={CO2Total} />
+          <TreesPlanted title="Yearly" ratio="365.25" CO2Total={CO2Total} />
         </article>
         <div className="tree-svg">
           <svg
