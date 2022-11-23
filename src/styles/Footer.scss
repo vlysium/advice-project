@@ -1,3 +1,5 @@
+@use "./_variables" as v;
+
 footer{
         min-height: 150px;
     padding: 1rem;
@@ -6,6 +8,8 @@ footer{
     justify-items: center;
     align-items: center;
     gap: 1rem;
+    background-color: v.$color-secondary;
+    color: white;
     img{
         width: 15%;
     }
@@ -15,4 +19,13 @@ footer{
     display: flex;
     justify-content: center;
     gap: 2rem;
+}
+.footerLinks{
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    li{
+        list-style: none;
+    }
 }
