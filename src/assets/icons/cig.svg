@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Lag_1" data-name="Lag 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 877 89">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #8c6239;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #e46f21;
+      }
+
+      .cls-4 {
+        fill: #f7931e;
+      }
+    </style>
+  </defs>
+  <rect class="cls-2" width="860" height="89"/>
+  <rect class="cls-3" width="201" height="89"/>
+  <circle class="cls-4" cx="21" cy="32" r="5"/>
+  <ellipse class="cls-4" cx="43" cy="67.5" rx="5" ry="2.5"/>
+  <ellipse class="cls-4" cx="146" cy="34.5" rx="5" ry="2.5"/>
+  <ellipse class="cls-4" cx="167" cy="83.5" rx="5" ry="2.5"/>
+  <circle class="cls-4" cx="113" cy="77" r="5"/>
+  <ellipse class="cls-4" cx="103" cy="23.5" rx="5" ry="3.5"/>
+  <ellipse class="cls-4" cx="53" cy="11.5" rx="5" ry="2.5"/>
+  <ellipse class="cls-4" cx="186" cy="11.5" rx="5" ry="2.5"/>
+  <ellipse class="cls-4" cx="194" cy="64.5" rx="5" ry="3.5"/>
+  <ellipse class="cls-4" cx="11" cy="83.5" rx="5" ry="3.5"/>
+  <ellipse class="cls-4" cx="74.5" cy="77" rx="1.5" ry="5"/>
+  <ellipse class="cls-4" cx="4.5" cy="14" rx="1.5" ry="5"/>
+  <ellipse class="cls-4" cx="146.5" cy="65" rx="1.5" ry="5"/>
+  <ellipse class="cls-4" cx="176.5" cy="34" rx="1.5" ry="5"/>
+  <ellipse class="cls-4" cx="53.5" cy="39" rx="1.5" ry="5"/>
+  <ellipse class="cls-4" cx="90" cy="48.5" rx="5" ry="2.5"/>
+  <path class="cls-4" d="M.5,53.5l-.1-4.5c2.46-.06,4.53,1.91,4.6,4.37s-1.9,4.56-4.37,4.63l-.13-4.5Z"/>
+  <path class="cls-4" d="M135.5,4h1.5s0,.04,0,.06c-.11,2.74-.88,4.97-1.7,4.93s-1.41-2.32-1.29-5.06l1.5,.06Z"/>
+  <ellipse class="cls-1" cx="860" cy="44.5" rx="17" ry="44.5"/>
+</svg>
