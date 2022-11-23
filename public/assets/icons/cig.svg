@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Lag_1" data-name="Lag 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 877 89">
+<svg id="Lag_1" data-name="Lag 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
   <defs>
     <style>
       .cls-1 {
@@ -19,25 +19,25 @@
       }
     </style>
   </defs>
-  <rect class="cls-2" width="860" height="89"/>
-  <rect class="cls-3" width="201" height="89"/>
-  <circle class="cls-4" cx="21" cy="32" r="5"/>
-  <ellipse class="cls-4" cx="43" cy="67.5" rx="5" ry="2.5"/>
-  <ellipse class="cls-4" cx="146" cy="34.5" rx="5" ry="2.5"/>
-  <ellipse class="cls-4" cx="167" cy="83.5" rx="5" ry="2.5"/>
-  <circle class="cls-4" cx="113" cy="77" r="5"/>
-  <ellipse class="cls-4" cx="103" cy="23.5" rx="5" ry="3.5"/>
-  <ellipse class="cls-4" cx="53" cy="11.5" rx="5" ry="2.5"/>
-  <ellipse class="cls-4" cx="186" cy="11.5" rx="5" ry="2.5"/>
-  <ellipse class="cls-4" cx="194" cy="64.5" rx="5" ry="3.5"/>
-  <ellipse class="cls-4" cx="11" cy="83.5" rx="5" ry="3.5"/>
-  <ellipse class="cls-4" cx="74.5" cy="77" rx="1.5" ry="5"/>
-  <ellipse class="cls-4" cx="4.5" cy="14" rx="1.5" ry="5"/>
-  <ellipse class="cls-4" cx="146.5" cy="65" rx="1.5" ry="5"/>
-  <ellipse class="cls-4" cx="176.5" cy="34" rx="1.5" ry="5"/>
-  <ellipse class="cls-4" cx="53.5" cy="39" rx="1.5" ry="5"/>
-  <ellipse class="cls-4" cx="90" cy="48.5" rx="5" ry="2.5"/>
-  <path class="cls-4" d="M.5,53.5l-.1-4.5c2.46-.06,4.53,1.91,4.6,4.37s-1.9,4.56-4.37,4.63l-.13-4.5Z"/>
-  <path class="cls-4" d="M135.5,4h1.5s0,.04,0,.06c-.11,2.74-.88,4.97-1.7,4.93s-1.41-2.32-1.29-5.06l1.5,.06Z"/>
-  <ellipse class="cls-1" cx="860" cy="44.5" rx="17" ry="44.5"/>
+  <rect class="cls-2" x="-19.83" y="113.27" width="295.59" height="30.59" transform="translate(-51.66 153.83) rotate(-53.14)"/>
+  <rect class="cls-3" x="25.49" y="203.89" width="69.09" height="30.59" transform="translate(-151.35 135.74) rotate(-53.14)"/>
+  <circle class="cls-4" cx="40.21" cy="238.46" r="1.72"/>
+  <ellipse class="cls-4" cx="54.5" cy="239.74" rx="1.72" ry=".86" transform="translate(-170.01 139.53) rotate(-53.14)"/>
+  <ellipse class="cls-4" cx="66.66" cy="204.61" rx="1.72" ry=".86" transform="translate(-137.03 135.21) rotate(-53.14)"/>
+  <ellipse class="cls-4" cx="84.47" cy="208.94" rx="1.72" ry=".86" transform="translate(-133.37 151.19) rotate(-53.14)"/>
+  <circle class="cls-4" cx="71.56" cy="222.43" r="1.72"/>
+  <ellipse class="cls-4" cx="54.77" cy="214.17" rx="1.72" ry="1.2" transform="translate(-149.44 129.52) rotate(-53.14)"/>
+  <ellipse class="cls-4" cx="41.16" cy="225.45" rx="1.72" ry=".86" transform="translate(-163.91 123.14) rotate(-53.14)"/>
+  <ellipse class="cls-4" cx="68.58" cy="188.87" rx="1.72" ry=".86" transform="translate(-123.67 130.45) rotate(-53.14)"/>
+  <ellipse class="cls-4" cx="84.81" cy="197.59" rx="1.72" ry="1.2" transform="translate(-124.16 146.92) rotate(-53.14)"/>
+  <ellipse class="cls-4" cx="52.3" cy="251.84" rx="1.72" ry="1.2" transform="translate(-180.57 142.62) rotate(-53.14)"/>
+  <ellipse class="cls-4" cx="63.61" cy="233.04" rx=".52" ry="1.72" transform="translate(-161 144.14) rotate(-53.14)"/>
+  <ellipse class="cls-4" cx="31.85" cy="239.3" rx=".52" ry="1.72" transform="translate(-178.72 121.24) rotate(-53.14)"/>
+  <ellipse class="cls-4" cx="75.15" cy="210.76" rx=".52" ry="1.72" transform="translate(-138.56 144.46) rotate(-53.14)"/>
+  <ellipse class="cls-4" cx="72.81" cy="196.12" rx=".52" ry="1.72" transform="translate(-127.78 136.73) rotate(-53.14)"/>
+  <ellipse class="cls-4" cx="48.83" cy="230.98" rx=".52" ry="1.72" transform="translate(-165.27 131.49) rotate(-53.14)"/>
+  <ellipse class="cls-4" cx="58.97" cy="222.9" rx="1.72" ry=".86" transform="translate(-154.75 136.37) rotate(-53.14)"/>
+  <path class="cls-4" d="M41.9,248.53l-1.26-.9c.49-.69,1.46-.85,2.15-.36s.86,1.46,.37,2.16l-1.26-.89Z"/>
+  <path class="cls-4" d="M56.12,201.19l.31-.41s.01,.01,.02,.01c.73,.59,1.19,1.27,1.01,1.48s-.93-.09-1.66-.69l.33-.4h0Z"/>
+  <ellipse class="cls-1" cx="216.63" cy="10.3" rx="5.84" ry="15.3" transform="translate(78.44 177.45) rotate(-53.14)"/>
 </svg>

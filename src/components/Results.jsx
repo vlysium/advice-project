@@ -25,6 +25,18 @@ function Results({ CO2Total, dynamicValue, onUpdate, setVisualization, unit }) {
     setVisualization(event.target.value);
     onUpdate(event.target.value);
   }
+  function image() {
+    switch (unit) {
+      case "power":
+        return "light-bulb.svg";
+
+      case "cigarettes":
+        return "cig.svg";
+
+      case "coffeecups":
+        return "coffee.svg";
+    }
+  }
 
   return (
     <section id="results">
@@ -36,30 +48,10 @@ function Results({ CO2Total, dynamicValue, onUpdate, setVisualization, unit }) {
           <DropDown onChange={onChange} />
         </div>
         <div className="visuel max-width">
-          <Usage
-            title="Daily"
-            myClassName="daily"
-            time="day"
-            dynamicValue={dynamicValue}
-            ratio="1"
-            unit={unit}
-          />
-          <Usage
-            title="Monthly"
-            myClassName="monthly"
-            time="month"
-            dynamicValue={dynamicValue}
-            ratio="30.42"
-            unit={unit}
-          />
-          <Usage
-            title="Yearly"
-            myClassName="yearly"
-            time="year"
-            dynamicValue={dynamicValue}
-            ratio="365.25"
-            unit={unit}
-          />
+          <img src={"./assets/icons/" + image()} /* className={myClassName} */ alt={unit}></img>
+          <Usage title="Daily" myClassName="daily" time="day" dynamicValue={dynamicValue} ratio="1" unit={unit} />
+          <Usage title="Monthly" myClassName="monthly" time="month" dynamicValue={dynamicValue} ratio="30.42" unit={unit} />
+          <Usage title="Yearly" myClassName="yearly" time="year" dynamicValue={dynamicValue} ratio="365.25" unit={unit} />
         </div>
       </div>
       <div className="tree-grid max-width">
