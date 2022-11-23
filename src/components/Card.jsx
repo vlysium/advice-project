@@ -6,14 +6,14 @@ function Card({ title, icon, onChange, index, ratio }) {
   function convertMinutesToCO2(value) {
     // check if the input is empty
     if (value !== "") {
-      return Math.round(ratio * value * 1000);
+      return Math.round(ratio * value * 1000) / 1000;
     }
     return 0;
   }
 
   return (
     <div className="converter-card">
-      <img src={icon} alt={title + " icon"} />
+      <img src={"src/assets/icons/" + icon} alt={title + " icon"} />
       <h3>{title}</h3>
       <input
         type="number"
@@ -28,5 +28,3 @@ function Card({ title, icon, onChange, index, ratio }) {
 }
 
 export default Card;
-
-//parseInt(input.current.value, 10)

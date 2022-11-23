@@ -4,7 +4,7 @@ import "../styles/Results.scss";
 import DropDown from "./DropDown";
 import Usage from "./Usage";
 
-function Results({ CO2Total, dynamicText, onUpdate, setVisualization }) {
+function Results({ CO2Total, dynamicValue, onUpdate, setVisualization, unit }) {
   const [kWh, setkWh] = useState(0);
 
   function onChange(event) {
@@ -16,14 +16,27 @@ function Results({ CO2Total, dynamicText, onUpdate, setVisualization }) {
     <section id="results" className="max-width">
       <div className="visuel-results">
         <div className="result-text">
-          <h2>Your CO2 emissions</h2>
+          <h2>Your CO2 footprint is {CO2Total} g CO2eq, which is equivalent to:</h2>
           <DropDown onChange={onChange} />
-          <p>{dynamicText}</p>
         </div>
         <div className="visuel">
-          <Usage title="Daily" myClassName="daily" />
-          <Usage title="Monthly" myClassName="monthly" />
-          <Usage title="Yearly" myClassName="yearly" />
+          <Usage title="Daily" myClassName="daily" time="day" dynamicValue={dynamicValue} ratio="1" unit={unit} />
+          <Usage
+            title="Monthly"
+            myClassName="monthly"
+            time="month"
+            dynamicValue={dynamicValue}
+            ratio="30.42"
+            unit={unit}
+          />
+          <Usage
+            title="Yearly"
+            myClassName="yearly"
+            time="year"
+            dynamicValue={dynamicValue}
+            ratio="365.25"
+            unit={unit}
+          />
         </div>
       </div>
       <div className="tree-grid">
