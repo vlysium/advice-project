@@ -25,7 +25,7 @@ function Header() {
       </nav>
       <section className="max-width" id="headerSection">
         <div className="textContent">
-          <h1>CO2 UDREGNER</h1>
+          <h1>You're Destroying The Climate!</h1>
           <p>
             The impact which the usage of the internet has on the global environment, is greater than you may think.
             With our calculator you can estimate how much your own social media usage could be contributing!

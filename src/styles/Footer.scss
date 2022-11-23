@@ -18,12 +18,27 @@ footer {
   }
 }
 
+.footerLogos{
+    h5{
+        margin: 0;
+    }
+        display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
 .footerMedia {
   display: flex;
   justify-content: center;
   gap: 2rem;
 }
 .footerLinks {
+    ul{
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
   a {
     text-decoration: none;
     color: v.$color-primary;

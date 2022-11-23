@@ -6,7 +6,7 @@ function Footer() {
     <footer>
       <section className="max-width">
         <div className="footerLogos">
-          <h3>CO2 UDREGNER</h3>
+          <h5>CO2 UDREGNER</h5>
           <svg height="50" width="50">
             <circle
               cx="25"
@@ -42,9 +42,9 @@ function Footer() {
           </ul>
         </div>
         <div className="footerMedia">
-          <img src="src/assets/icons/icons8-facebook-240.svg" alt="" />
-          <img src="src/assets/icons/icons8-instagram.svg" alt="" />
-          <img src="src/assets/icons/icons8-tiktok.svg" alt="" />
+          <img src="./assets/icons/icons8-facebook-240.svg" alt="" />
+          <img src="./assets/icons/icons8-instagram.svg" alt="" />
+          <img src="./assets/icons/icons8-tiktok.svg" alt="" />
         </div>
       </section>
     </footer>
