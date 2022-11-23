@@ -24,6 +24,8 @@
        display: grid;
        gap: 1rem;
       place-content: center;
+      background-color: white;
+      padding:  2rem;
       div{
         display: grid;
         gap: 0.15rem;
@@ -38,7 +40,7 @@
   .yearly {
     width: 200px;
     height: 300px;
-    background-color: rgb(240, 255, 249);
+    
   }
 }
 
