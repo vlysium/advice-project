@@ -10,21 +10,21 @@
     justify-content: center;
     justify-items: center;
     gap: 2rem;
-        padding: 2rem;
+    padding: 2rem;
     .result-text {
       grid-row: 1/2;
-          display: grid;
-          gap: 1rem;
-      p{
+      display: grid;
+      gap: 1rem;
+      p {
         max-width: 52ch;
       }
     }
     .visuel {
       grid-row: 2/3;
-       display: grid;
-       gap: 1rem;
+      display: grid;
+      gap: 1rem;
       place-content: center;
-      div{
+      div {
         display: grid;
         gap: 0.15rem;
       }
@@ -38,7 +38,8 @@
   .yearly {
     width: 200px;
     height: 300px;
-    background-color: rgb(240, 255, 249);
+    background-color: v.$color-primary-light;
+    border-radius: 8px;
   }
 }
 
@@ -63,10 +64,10 @@
     /*  background-color: rgb(240, 255, 249); */
   }
 }
-#visualisering{
-    padding: 0.8rem;
-        border: none;
-    border-radius: 8px;
+#visualisering {
+  padding: 0.8rem;
+  border: none;
+  border-radius: 8px;
 }
 
 /*web*/
@@ -74,10 +75,10 @@
   #results {
     .visuel-results {
       display: grid;
-          grid-template-rows: 0.5fr 1fr;
-              justify-items: start;
-              width: 100%;
-              margin: 0;
+      grid-template-rows: 0.5fr 1fr;
+      justify-items: start;
+      width: 100%;
+      margin: 0;
       .result-text {
         grid-row: 1/2;
         display: block;

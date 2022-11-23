@@ -10,7 +10,7 @@ footer {
     justify-items: center;
     align-items: center;
     gap: 1rem;
-    color: white;
+    color: v.$color-primary;
   }
 
   img {
@@ -26,7 +26,7 @@ footer {
 .footerLinks {
   a {
     text-decoration: none;
-    color: white;
+    color: v.$color-primary;
   }
   li {
     list-style: none;

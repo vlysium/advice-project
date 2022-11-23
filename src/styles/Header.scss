@@ -1,5 +1,7 @@
+@use "./_variables" as variable;
+
 header {
-  background-color: #f1ecde;
+  background-color: variable.$color-primary-dark;
 }
 .navbar {
   display: flex;
@@ -12,10 +14,10 @@ header {
     gap: 2rem;
     li {
       list-style: none;
-      color: #2c3d37;
+      color: variable.$color-secondary;
       a {
         text-decoration: none;
-        color: #2c3d37;
+        color: variable.$color-secondary;
       }
     }
   }
@@ -38,16 +40,16 @@ header {
     flex-direction: column;
     h1,
     p {
-      color: #2c3d37;
+      color: variable.$color-secondary;
       max-width: 60ch;
     }
     button {
       width: 150px;
-      height: 50px;
+      /*height: 50px;
       border-radius: 8px;
       border: none;
       background: #e46f21;
-      color: white;
+      color: white;*/
     }
   }
   .circler {

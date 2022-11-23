@@ -1,5 +1,7 @@
 // global reset
 
+@use "./styles/variables" as variable;
+
 *,
 *::before,
 *::after {
@@ -28,7 +30,13 @@ input {
 
 button {
   cursor: pointer;
-  padding: 12px 32px;
+  padding: 16px 32px;
+  background-color: variable.$color-accent-2;
+  border: none;
+  border-radius: 8px;
+  color: variable.$color-primary-light;
+  font-size: 0.9rem;
+  font-weight: 500;
 }
 
 // globale klasser
