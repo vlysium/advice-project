@@ -13,6 +13,31 @@
 
 // fonts
 
+h1 {
+  font-size: clamp(2.074rem, 1.533rem + 2.166vw, 3.157rem);
+  color: variable.$color-secondary;
+}
+
+h2 {
+  font-size: clamp(1.728rem, 1.4075rem + 1.2825vw, 2.369rem);
+  color: variable.$color-secondary;
+}
+
+h3 {
+  font-size: clamp(1.44rem, 1.2715rem + 0.674vw, 1.777rem);
+  color: variable.$color-secondary;
+}
+
+h4 {
+  font-size: clamp(1.2rem, 1.1335rem + 0.266vw, 1.333rem);
+  color: variable.$color-secondary;
+}
+
+p {
+  font-size: 1rem;
+  color: variable.$color-secondary-light;
+}
+
 // elements
 
 html {
@@ -26,6 +51,12 @@ body {
 
 input {
   padding: 8px;
+}
+
+select {
+  background-color: variable.$color-primary-light;
+  color: variable.$color-secondary;
+  font-weight: 500;
 }
 
 button {
