@@ -5,10 +5,9 @@ import CardContainer from "./CardContainer";
 function Converter({ onChange, onCalculate }) {
   return (
     <section id="converter" className="max-width">
-      <h2>Lorem ipsum dolor sit amet</h2>
+      <h2>What is my CO2 footprint?</h2>
       <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit, sit? Illum iure repellendus repellat alias
-        ab itaque exercitationem quia culpa.
+        Input the amount of time you spend each day on each platform and social medias to calculate your CO2 footprint.
       </p>
       <CardContainer onChange={onChange} />
       <button onClick={onCalculate}>Calculate my CO2 footprint</button>
