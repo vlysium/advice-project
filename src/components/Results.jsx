@@ -34,7 +34,7 @@ function Results({ CO2Total, dynamicText, onUpdate, setVisualization }) {
           <p>Yearly:</p>
         </article>
         <div className="tree-svg">
-          {/*  <img src="" alt="trees" /> */}
+          
           <svg
             xmlns="http://www.w3.org/2000/svg"
             maxwidth="500"
