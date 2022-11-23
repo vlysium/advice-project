@@ -6,7 +6,7 @@ function Card({ title, icon, onChange, index, ratio }) {
   function convertMinutesToCO2(value) {
     // check if the input is empty
     if (value !== "") {
-      return Math.round(ratio * value * 1000) / 1000;
+      return Math.round(ratio * value * 100) / 100;
     }
     return 0;
   }

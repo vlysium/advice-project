@@ -27,7 +27,7 @@ function App() {
     setCO2(newState);
 
     // sum all numbers
-    setCO2Total(newState.reduce((a, b) => a + b, 0));
+    setCO2Total(Math.round(newState.reduce((a, b) => a + b, 0) * 100) / 100);
   }
 
   function onCalculate() {
@@ -35,15 +35,15 @@ function App() {
   }
 
   function convertCO2TokWh(value) {
-    return (value * 0.0076).toFixed(2);
+    return Math.round(value * 0.0076 * 100) / 100;
   }
 
   function convertCO2ToCigarettes(value) {
-    return (value * 0.0714).toFixed(2);
+    return Math.round(value * 0.0714 * 100) / 100;
   }
 
   function convertCO2ToCupsOfCoffee(value) {
-    return (value * 0.0076).toFixed(2);
+    return Math.round(value * 0.0076 * 100) / 100;
   }
 
   function displayValue(value) {
