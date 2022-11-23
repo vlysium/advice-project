@@ -6,7 +6,7 @@ function Footer() {
     <footer>
       <section className="max-width">
         <div className="footerLogos">
-          <h3>CO2 UDREGNER</h3>
+          <h5>CO2 UDREGNER</h5>
           <svg height="50" width="50">
             <circle
               cx="25"
