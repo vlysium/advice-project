@@ -1,4 +1,4 @@
-import { useState, useRef } from "react";
+import { useRef } from "react";
 
 function Card({ title, icon, onChange, index, ratio }) {
   const input = useRef(null);
