@@ -42,8 +42,18 @@ function Header() {
           <button>CTA</button>
         </div>
         <div className="circler">
-          <img className="orangeCircle" src="src/assets/icons/orangeCircle.svg" alt="" />
-          <img className="greenCircle" src="src/assets/icons/greenCircle.svg" alt="" />
+          {/* <img className="orangeCircle" src="src/assets/icons/orangeCircle.svg" alt="" />
+          <img className="greenCircle" src="src/assets/icons/greenCircle.svg" alt="" /> */}
+
+          <lottie-player
+            src="https://lottie.host/c8625638-e109-4bbc-a1b5-7e2262ce6f05/gZIwASA7Be.json"
+            mode="bounce"
+            background="transparent"
+            speed="1"
+            style={{ width: "100%", height: "auto" }}
+            loop
+            autoplay
+          ></lottie-player>
         </div>
       </section>
     </header>

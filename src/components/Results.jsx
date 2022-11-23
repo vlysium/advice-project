@@ -1,5 +1,4 @@
 import { useState } from "react";
-
 import "../styles/Results.scss";
 import DropDown from "./DropDown";
 import Usage from "./Usage";

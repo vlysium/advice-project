@@ -1,20 +1,37 @@
+@use "./_variables" as v;
+
 #results {
-  width: 660px;
+  //width: 660px;
+  margin: auto;
+  background-color: v.$color-primary;
   .visuel-results {
     display: grid;
-    grid-template-rows: 100px auto;
+    grid-template-rows: 0.3fr auto;
     justify-content: center;
+    justify-items: center;
+    gap: 2rem;
+        padding: 2rem;
     .result-text {
       grid-row: 1/2;
+          display: grid;
+          gap: 1rem;
+      p{
+        max-width: 52ch;
+      }
     }
     .visuel {
       grid-row: 2/3;
-      display: grid;
+       display: grid;
+       gap: 1rem;
       place-content: center;
+      div{
+        display: grid;
+        gap: 0.15rem;
+      }
     }
   }
   #visualisering {
-    min-width: 200px;
+    /* width: 200px; */
   }
   .daily,
   .monthly,
@@ -46,13 +63,21 @@
     /*  background-color: rgb(240, 255, 249); */
   }
 }
+#visualisering{
+    padding: 0.8rem;
+        border: none;
+    border-radius: 8px;
+}
 
 /*web*/
 @media screen and (min-width: 700px) {
   #results {
     .visuel-results {
       display: grid;
-      grid-template-rows: 100px auto;
+          grid-template-rows: 0.5fr 1fr;
+              justify-items: start;
+              width: 100%;
+              margin: 0;
       .result-text {
         grid-row: 1/2;
         display: block;
