@@ -1,4 +1,4 @@
-import { useState, useRef } from "react";
+import { useRef } from "react";
 
 function Card({ title, icon, onChange, index, ratio }) {
   const input = useRef(null);
@@ -6,7 +6,7 @@ function Card({ title, icon, onChange, index, ratio }) {
   function convertMinutesToCO2(value) {
     // check if the input is empty
     if (value !== "") {
-      return Math.round(ratio * value * 1000);
+      return Math.round(ratio * value * 100) / 100;
     }
     return 0;
   }
@@ -16,7 +16,7 @@ function Card({ title, icon, onChange, index, ratio }) {
       <img src={icon} alt={title + " icon"} />
       <h3>{title}</h3>
       <input
-        type="number"
+        type="text"
         min="0"
         placeholder="Input minutes"
         onBlur={() => onChange(convertMinutesToCO2(input.current.value), index)}
@@ -28,5 +28,3 @@ function Card({ title, icon, onChange, index, ratio }) {
 }
 
 export default Card;
-
-//parseInt(input.current.value, 10)
