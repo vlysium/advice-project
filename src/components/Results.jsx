@@ -13,13 +13,13 @@ function Results({ CO2Total, dynamicValue, onUpdate, setVisualization, unit }) {
   }
 
   return (
-    <section id="results" className="max-width">
+    <section id="results">
       <div className="visuel-results">
         <div className="result-text">
           <h2>Your CO2 footprint is {CO2Total} g CO2eq, which is equivalent to:</h2>
           <DropDown onChange={onChange} />
         </div>
-        <div className="visuel">
+        <div className="visuel max-width">
           <Usage title="Daily" myClassName="daily" time="day" dynamicValue={dynamicValue} ratio="1" unit={unit} />
           <Usage
             title="Monthly"
@@ -39,7 +39,7 @@ function Results({ CO2Total, dynamicValue, onUpdate, setVisualization, unit }) {
           />
         </div>
       </div>
-      <div className="tree-grid">
+      <div className="tree-grid max-width">
         <article className="tree-text">
           <h4>To offset your CO2 emissions, you would have to plant the following number of trees:</h4>
           <TreesPlanted title="Daily" ratio="1" CO2Total={CO2Total} />
