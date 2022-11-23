@@ -35,7 +35,7 @@ function App() {
   }
 
   function convertCO2TokWh(value) {
-    return Math.round(value * 0.0076 * 100) / 100;
+    return Math.round(value * 0.0043 * 100) / 100;
   }
 
   function convertCO2ToCigarettes(value) {
@@ -43,7 +43,7 @@ function App() {
   }
 
   function convertCO2ToCupsOfCoffee(value) {
-    return Math.round(value * 0.0076 * 100) / 100;
+    return Math.round(value * 0.021 * 100) / 100;
   }
 
   function displayValue(value) {

@@ -15,9 +15,10 @@ function Usage({ title, myClassName, time, dynamicValue, ratio, unit }) {
   return (
     <div>
       <h4>{title}</h4>
-      <p className={myClassName}>
+      <p>
         {Math.round(dynamicValue * ratio * 100) / 100} {displayedValue()} a {time}
       </p>
+      <div className={myClassName}></div>
     </div>
   );
 }
