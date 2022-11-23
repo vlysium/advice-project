@@ -29,7 +29,7 @@ function Usage({ title, myClassName, time, dynamicValue, ratio, unit }) {
     <div>
       <h4>{title}</h4>
 
-      <img src={"src/assets/icons/" + image()} className={myClassName} alt={unit}></img>
+      <img src={"./assets/icons/" + image()} className={myClassName} alt={unit}></img>
       <p>
         {Math.round(dynamicValue * ratio * 100) / 100} {displayedValue()} a {time}
       </p>
