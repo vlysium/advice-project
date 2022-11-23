@@ -10,7 +10,9 @@ function Converter({ onChange, onCalculate }) {
         Input the amount of time you spend each day on each platform and social medias to calculate your CO2 footprint.
       </p>
       <CardContainer onChange={onChange} />
-      <button onClick={onCalculate}>Calculate my CO2 footprint</button>
+      <a className="btn" href="#results" onClick={onCalculate}>
+        Calculate my CO2 footprint
+      </a>
     </section>
   );
 }

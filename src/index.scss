@@ -60,7 +60,8 @@ select {
   font-weight: 500;
 }
 
-button {
+button,
+a.btn {
   cursor: pointer;
   padding: 16px 32px;
   background-color: variable.$color-accent-2;
@@ -69,6 +70,10 @@ button {
   color: variable.$color-primary-light;
   font-size: 0.9rem;
   font-weight: 500;
+  text-align: center;
+  min-width: 150px;
+  width: max-content;
+  text-decoration: none;
 }
 
 // globale klasser
