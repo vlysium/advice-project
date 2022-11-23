@@ -1,34 +1,34 @@
 @use "./_variables" as v;
 
-footer{
-    section{
-        min-height: 150px;
+footer {
+  background-color: v.$color-secondary;
+  section {
+    min-height: 150px;
     padding: 1rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     justify-items: center;
     align-items: center;
     gap: 1rem;
-    background-color: v.$color-secondary;
     color: white;
-    }
-        
-    img{
-        width: 15%;
-    }
+  }
+
+  img {
+    width: 15%;
+  }
 }
 
-.footerMedia{
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
+.footerMedia {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
 }
-.footerLinks{
-    a{
-        text-decoration: none;
-        color: white;
-    }
-    li{
-        list-style: none;
-    }
+.footerLinks {
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  li {
+    list-style: none;
+  }
 }
