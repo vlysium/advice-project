@@ -6,7 +6,7 @@ function Footer() {
     <footer>
       <section className="max-width">
         <div className="footerLogos">
-          <h5>CO2 UDREGNER</h5>
+            
           <svg height="50" width="50">
             <circle
               cx="25"
@@ -27,6 +27,7 @@ function Footer() {
             </text>
             Sorry, your browser does not support inline SVG.
           </svg>
+          <h5>Footprint Calculator</h5>
         </div>
         <div className="footerLinks">
           <ul>

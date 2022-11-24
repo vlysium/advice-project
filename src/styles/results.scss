@@ -51,6 +51,10 @@
       }
       img {
         width: 100%;
+        background-color: white;
+        padding: 2rem;
+        border-radius: 8px;
+        height: auto;
       }
     }
   }
@@ -64,9 +68,8 @@
   display: grid;
   justify-items: center;
   row-gap: 2rem;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  padding-inline: 16px;
+  padding: 2rem;
+  padding-bottom: 4rem;
   .tree-text {
     h4 {
       max-width: 250px;
@@ -79,6 +82,8 @@
     height: 280px;
     min-width: 250px;
     /*  background-color: rgb(240, 255, 249); */
+    display: grid;
+    justify-content: center;
   }
 }
 #visualisering {
@@ -86,6 +91,7 @@
   border: none;
   border-radius: 8px;
   width: 250px;
+  background-color: white;
 }
 
 /*web*/
@@ -94,7 +100,7 @@
     .visuel-results {
       display: grid;
       grid-template-rows: 0.5fr 1fr;
-      justify-items: start;
+      align-items: center;
       width: 100%;
       margin: 0;
       .result-text {
@@ -131,6 +137,7 @@
         img {
           grid-column: 1/2;
           grid-row: 1/4;
+          height: 100%;
         }
       }
     } //visuel-results
@@ -138,7 +145,7 @@
       display: flex;
       place-content: center;
       column-gap: 100px;
-      padding: 5rem 0rem 5rem 0rem;
+      padding: 2rem;
       .tree-text {
         h4 {
           max-width: 500px;
