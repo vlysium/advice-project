@@ -5,7 +5,14 @@ function Header() {
     <header>
       <nav className="navbar">
         <svg height="50" width="50">
-          <circle cx="25" cy="25" r="20" stroke="none" strokeWidth="4" fill="#226F63" />
+          <circle
+            cx="25"
+            cy="25"
+            r="20"
+            stroke="none"
+            strokeWidth="4"
+            fill="#226F63"
+          />
           <text fill="#ffffff" fontSize="12" fontFamily="Verdana" x="12" y="30">
             CO2
           </text>
@@ -27,8 +34,10 @@ function Header() {
         <div className="textContent">
           <h1>You're Destroying The Climate!</h1>
           <p>
-            The impact which the usage of the internet has on the global environment, is greater than you may think.
-            With our calculator you can estimate how much your own social media usage could be contributing!
+            The impact which the usage of the internet has on the global
+            environment, is greater than you may think. With our calculator you
+            can estimate how much your own social media usage could be
+            contributing!
           </p>
           <a className="btn" href="#converter">
             Find my CO<sub>2</sub> footprint
@@ -37,16 +46,15 @@ function Header() {
         <div className="circler">
           {/* <img className="orangeCircle" src="src/assets/icons/orangeCircle.svg" alt="" />
           <img className="greenCircle" src="src/assets/icons/greenCircle.svg" alt="" /> */}
-
-          <lottie-player
-            src="https://lottie.host/c8625638-e109-4bbc-a1b5-7e2262ce6f05/gZIwASA7Be.json"
-            mode="bounce"
+          <dotlottie-player
+            src="https://lottie.host/2d8bd7d7-2776-424d-8bb3-8a66eacf2814/S3fGLkZFtb.lottie"
             background="transparent"
+            mode="bounce"
             speed="1"
             style={{ width: "100%", height: "auto" }}
             loop
             autoplay
-          ></lottie-player>
+          ></dotlottie-player>
         </div>
       </section>
     </header>

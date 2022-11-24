@@ -16,7 +16,7 @@ function Card({ title, icon, onChange, index, ratio }) {
       <img src={icon} alt={title + " icon"} />
       <h3>{title}</h3>
       <input
-        type="text"
+        type="number"
         min="0"
         placeholder="Input minutes"
         onBlur={() => onChange(convertMinutesToCO2(input.current.value), index)}
