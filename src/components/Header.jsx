@@ -31,7 +31,7 @@ function Header() {
             With our calculator you can estimate how much your own social media usage could be contributing!
           </p>
           <a className="btn" href="#converter">
-            CTA
+            Find my CO<sub>2</sub> footprint
           </a>
         </div>
         <div className="circler">
