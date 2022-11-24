@@ -38,16 +38,16 @@
         border-radius: 8px;
       }
       .daily {
-        grid-row: 1/2;
-        width: 300px;
+        grid-row: 2/3;
+        //width: 300px;
       }
       .monthly {
-        grid-row: 2/3;
-        width: 300px;
+        grid-row: 3/4;
+        //width: 300px;
       }
       .yearly {
-        grid-row: 3/4;
-        width: 300px;
+        grid-row: 4/5;
+        //width: 300px;
       }
       img {
         width: 100%;
@@ -90,8 +90,10 @@
   padding: 0.8rem;
   border: none;
   border-radius: 8px;
-  width: 250px;
+  width: 100%;
   background-color: white;
+  grid-column: 1/2;
+grid-row: 1/2;
 }
 
 /*web*/
@@ -117,26 +119,26 @@
         grid-row: 2/3;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
+        //grid-template-rows: 1fr 1fr 1fr;
         /* place-content: center; */
         gap: 2rem;
         flex-direction: column;
         align-items: center;
         .daily {
           grid-column: 2/3;
-          grid-row: 1/2;
+          grid-row: 2/3;
         }
         .monthly {
-          grid-row: 2/3;
+          grid-row: 3/4;
           grid-column: 2/3;
         }
         .yearly {
-          grid-row: 3/4;
+          grid-row: 4/5;
           grid-column: 2/3;
         }
         img {
           grid-column: 1/2;
-          grid-row: 1/4;
+          grid-row: 2/5;
           height: 100%;
         }
       }

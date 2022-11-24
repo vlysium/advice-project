@@ -14,7 +14,7 @@ function Usage({ title, myClassName, time, dynamicValue, ratio, unit }) {
 
   
   return (
-    <div>
+    <div className={myClassName}>
       <h4>{title}</h4>
 
       
