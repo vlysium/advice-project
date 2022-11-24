@@ -18,7 +18,7 @@ function Header() {
             <a href="#converter">Calculator</a>
           </li>
           <li>
-            <a href="#tips">Advices</a>
+            <a href="#tips">Advice</a>
           </li>
         </ul>
       </nav>
