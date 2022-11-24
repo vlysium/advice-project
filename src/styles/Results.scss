@@ -1,20 +1,20 @@
 @use "./_variables" as v;
 
 #results {
-  //width: 660px;
+  display: grid;
+  gap:3rem;
   margin: auto;
   background-color: v.$color-primary;
   .visuel-results {
     display: grid;
-    grid-template-rows: 0.3fr auto;
+    //grid-template-rows: 0.3fr auto;
     justify-content: center;
     justify-items: center;
     gap: 2rem;
     padding: 2rem;
     .result-text {
-      grid-row: 1/2;
-      display: grid;
       gap: 1rem;
+      padding: 2rem;
       p {
         max-width: 52ch;
       }
@@ -99,7 +99,7 @@
   #results {
     .visuel-results {
       display: grid;
-      grid-template-rows: 0.3fr 1fr;
+      //grid-template-rows: 0.3fr 1fr;
       align-items: center;
       width: 100%;
       margin: 0;
