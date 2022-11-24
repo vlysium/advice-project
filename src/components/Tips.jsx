@@ -5,7 +5,7 @@ import React from "react";
 function Tips() {
   return (
     <section id="tips">
-      <h2>Tips to reduce your CO2 emissions</h2>
+      <h2>Advice to reduce your CO2 emissions</h2>
       <div className="tips_container">
         <div className="tips_box">
           <h4>Browser</h4>
@@ -37,7 +37,10 @@ function Tips() {
         </div>
         <div className="tips_box">
           <h4>Booksmarks</h4>
-          <p>Save bookmarks for websites you frequently go to instead of searching for them in your search engine each time.</p>
+          <p>
+            Save bookmarks for websites you frequently go to instead of searching for them in your search engine each
+            time.
+          </p>
         </div>
         <div className="tips_box">
           <h4>Deleting</h4>

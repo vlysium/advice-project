@@ -2,24 +2,23 @@ import "../styles/Header.scss";
 
 function Header() {
   return (
-    <header>
+    <header id="header">
       <nav className="navbar">
-        <svg height="50" width="50">
-          <circle cx="25" cy="25" r="20" stroke="none" strokeWidth="4" fill="#226F63" />
-          <text fill="#ffffff" fontSize="12" fontFamily="Verdana" x="12" y="30">
-            CO2
-          </text>
-          Sorry, your browser does not support inline SVG.
-        </svg>
+        <a href="/">
+          <svg height="50" width="50">
+            <circle cx="25" cy="25" r="20" stroke="none" strokeWidth="4" fill="#226F63" />
+            <text fill="#ffffff" fontSize="12" fontFamily="Verdana" x="12" y="30">
+              CO&#8322;
+            </text>
+            Sorry, your browser does not support inline SVG.
+          </svg>
+        </a>
         <ul>
           <li>
-            <a href="#">Første</a>
+            <a href="#converter">Calculator</a>
           </li>
           <li>
-            <a href="#">Anden</a>
-          </li>
-          <li>
-            <a href="#">Trejde</a>
+            <a href="#tips">Advices</a>
           </li>
         </ul>
       </nav>

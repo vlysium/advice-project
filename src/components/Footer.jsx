@@ -18,13 +18,10 @@ function Footer() {
         <div className="footerLinks">
           <ul>
             <li>
-              <a href="#">Første</a>
+              <a href="#converter">Calculator</a>
             </li>
             <li>
-              <a href="#">Anden</a>
-            </li>
-            <li>
-              <a href="#">Trejde</a>
+              <a href="#tips">Advices</a>
             </li>
           </ul>
         </div>
