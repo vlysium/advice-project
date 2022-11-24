@@ -74,6 +74,20 @@ a.btn {
   min-width: 150px;
   width: max-content;
   text-decoration: none;
+
+  transition: background-color 0.15s;
+
+  &:hover {
+    background-color: variable.$color-accent-2-light;
+  }
+}
+
+a:not(.btn) {
+  transition: color 0.15s;
+
+  &:hover {
+    color: variable.$color-accent-2;
+  }
 }
 
 // globale klasser
