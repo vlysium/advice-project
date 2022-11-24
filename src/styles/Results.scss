@@ -126,6 +126,7 @@
         .daily {
           grid-column: 2/3;
           grid-row: 2/3;
+          
         }
         .monthly {
           grid-row: 3/4;
@@ -153,6 +154,7 @@
         }
         p {
           line-height: 5.5;
+          font-weight: 600;
         }
       }
       .tree-svg {
