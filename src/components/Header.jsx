@@ -13,13 +13,13 @@ function Header() {
         </svg>
         <ul>
           <li>
-            <a href="">Første</a>
+            <a href="#">Første</a>
           </li>
           <li>
-            <a href="">Anden</a>
+            <a href="#">Anden</a>
           </li>
           <li>
-            <a href="">Trejde</a>
+            <a href="#">Trejde</a>
           </li>
         </ul>
       </nav>
