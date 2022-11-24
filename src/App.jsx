@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Converter from "./components/Converter";
 import Results from "./components/Results";
 import Footer from "./components/Footer";
+import Tips from "./components/Tips";
 
 function App() {
   const [CO2, setCO2] = useState([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]);
@@ -73,6 +74,7 @@ function App() {
         unit={visualization}
         setVisualization={setVisualization}
       />
+      <Tips/>
       <Footer />
     </div>
   );
