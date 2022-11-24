@@ -18,6 +18,10 @@
       p {
         max-width: 52ch;
       }
+
+      #visualisering {
+        margin-top: 32px;
+      }
     }
     .visuel {
       grid-row: 2/3;
@@ -39,13 +43,13 @@
       }
       .monthly {
         grid-row: 2/3;
-         width: 300px;
+        width: 300px;
       }
       .yearly {
         grid-row: 3/4;
-         width: 300px;
+        width: 300px;
       }
-      img{
+      img {
         width: 100%;
       }
     }
@@ -125,10 +129,8 @@
           grid-column: 2/3;
         }
         img {
-           grid-column: 1/2;
-           grid-row: 1/4;
-
-
+          grid-column: 1/2;
+          grid-row: 1/4;
         }
       }
     } //visuel-results
